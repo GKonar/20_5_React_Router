@@ -4,7 +4,7 @@ import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store from './store';
 import DevTools from './DevTools';
-import { getCountries } from './actions/actions-countries'
+//import { getCountries } from './actions/actions-countries'
 import routes from './routes';
 
 // DODAWANIE PROVIDERA
@@ -20,7 +20,7 @@ render(
 );
 
 
-store.dispatch(getCountries());
+//store.dispatch(getCountries());
 
 // PROVIDER to komponent REACTOWY, dzięki któremu store jest widoczny przy każdym użyciu metody connect - 
 // bez niego React Redux nie wie z jakiego źródła ma czerpać dane. 
